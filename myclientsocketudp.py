@@ -1,9 +1,7 @@
 #Author: Animesh Gupta
-#Name: Python Assignment #5.2 - Sockets (Client Code)
 #Purpose: Python assignment on socket programming (Client Code)
 #Date:28th Oct
 #version: v3.7
-#Extra Credit Attempted
 
 
 import sys
