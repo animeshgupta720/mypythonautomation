@@ -50,7 +50,7 @@ def ixia_qos(result,packetcount,option):
 	ixnetwork.AssignPorts(testPorts,[],vportList,forceTakePortOwnership)
 
 
-	#Start all protocols
+	##Start all protocols
 
 	print("*******************Starting Protocols************************")
 
