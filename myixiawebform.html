@@ -1,0 +1,17 @@
+<html>
+   <body>
+      <form action = "http://localhost:5000/result" method = "POST">
+		<h2> Ixia Automation </h2> <br>
+		<p>Test Case ID <input type = "text" name = "Test Case ID" /></p>
+         <p>Enter File Name (For eg. "ospf_testing.ixcnfg") <input type = "text" name = "File Name" /></p>
+         <p>Number of Packets <input type = "text" name = "Number of Packets" /></p>
+	    <h2> Traffic Type </h2> <br>
+		 <input type="radio" name="options" id="1" value="option1"> IPv4 </input><br>
+		<input type="radio" name="options" id="2" value="option2"> IPv6 </input><br>
+		<input type="radio" name="options" id="3" value="option3"> Both </input><br>
+				
+         <p><input type = "submit" value = "Run Test" /></p>
+		 
+      </form>
+   </body>
+</html>
