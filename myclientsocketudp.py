@@ -1,5 +1,5 @@
 #Author: Animesh Gupta
-#Purpose: Python assignment on socket programming (Client Code)
+#Purpose: Python assignment on socket programming (Client code)
 #Date:28th Oct
 #version: v3.7
 
@@ -24,13 +24,13 @@ def create_socket(message,server_name,server_port):
 		print("oooo")
 		client_socket.sendto(message.encode(), (server_name, server_port))
 		print("Message sent. Waiting for reply.")
-		#print("oo yea")
+		
 		response, server_address  = client_socket.recvfrom(150000000)
 		# in case of error blocks forever
 		print (response)
 		print("Got reply back from server! Server reply is:")
 			
-		#mylist=[a]
+		
 		pattern1 = re.compile(r'\.\w+')
 		b = pattern1.findall(message)
 		c=b[0]
