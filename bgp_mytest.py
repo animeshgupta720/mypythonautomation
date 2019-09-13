@@ -138,7 +138,7 @@ try:
 	#ixNetwork.Traffic.TrafficItem.find().Generate()
 	time.sleep(20)
 	ixNetwork.Traffic.Apply()
-	time.sleep(20)
+	time.sleep(15)
 	ixNetwork.Traffic.Start()
 	time.sleep(10)
 	trafficItemStatistics = StatViewAssistant(ixNetwork, 'Traffic Item Statistics')
